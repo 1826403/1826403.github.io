@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    background-color:rgb(252, 157, 122);
+}
+
+.explain{
+    font-size: 25px;
+}
+
+.kuji_button{
+    text-align: center;
+    background-image: url(../img/haikei.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 850px 400px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    font-family:monospace;
+}
+
+button[type="button"]{
+    font-size: 35px;
+    width: 350px;
+    height: 70px;
+
+    border: 1px solid white;
+    border-radius: 4px;
+
+    background: linear-gradient(0deg, rgb(250, 136, 94), #f5f5c1);
+    color: #FFF;
+}
+
+.announce{
+    font-size: 30px;
+    color: rgb(255, 60, 0);
+}
+
+p{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+h3{
+    font-size: 25px;
+    color:rgb(85, 85, 255)
+}
+
+.box{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.final{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
